@@ -33,14 +33,17 @@ h1 {
 .gallery {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: center spase-around;
+    flex-wrap: wrap;
 }
 
 .wrapper {
     position: relative;
-    margin: 10px;
     opacity: 0.5;
-    transition: opacity 0.3s;
+    width: 150px;
+    height: 150px;
+    padding: 30px;
+
 }
 
 .wrapper:hover {
